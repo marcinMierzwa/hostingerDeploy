@@ -1,0 +1,17 @@
+div {
+  margin-top: 50px;
+  width: 100vw;
+}
+input {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+}
+button {
+  display: block;
+  margin: 40px auto;
+}
+h1 {
+  text-align: center;
+  width: 100%;
+}
