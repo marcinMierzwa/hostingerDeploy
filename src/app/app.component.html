@@ -14,7 +14,8 @@
 
 <ul>
     @for (user of users$ | async; track $index) {
-
-        <li>{{ user.userName }}</li>
+        <li>user id is : {{ user.id }}</li>
+        <li>user name is : {{ user.userName }}</li>
+        <br>
     }
 </ul>
